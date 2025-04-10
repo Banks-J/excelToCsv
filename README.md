@@ -8,11 +8,14 @@ The script requires the following Python packages:
 - `pandas`
 - `openpyxl`
 
-You can install them via:
+You can install them via either of the following:
 
 ```bash
+pip install pandas openpyxl
+
 pip install -r requirements.txt
 ```
+
 
 ## Usage
 
