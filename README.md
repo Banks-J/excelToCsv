@@ -16,7 +16,6 @@ pip install pandas openpyxl
 pip install -r requirements.txt
 ```
 
-
 ## Usage
 
 1. Place your Excel files (in `.xlsx` or `.xls` format) inside an **input folder**.
