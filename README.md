@@ -16,8 +16,8 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. **Place** your Excel files (in `.xlsx` or `.xls` format) inside an **input folder**.
-2. **Create** an **output folder** where you want your generated CSV files to be stored.
+1. Place your Excel files (in `.xlsx` or `.xls` format) inside an **input folder**.
+2. Create an output folder where you want your generated CSV files to be stored.
 3. Run the script from the command line by specifying the input and output folder paths:
 
 ```bash
@@ -40,8 +40,8 @@ python excelToCsv.py ./excel_files ./csv_output
 
 ## Notes
 
-- The script automatically **skips** files that do not end in `.xlsx` or `.xls`.
-- If any error occurs while reading an Excel file or a worksheet, the script logs the error and **continues** processing the remaining files.
-- If the output folder does not exist, the script **creates** it automatically.
+- The script automatically skips files that do not end in `.xlsx` or `.xls`.
+- If any error occurs while reading an Excel file or a worksheet, the script logs the error and continues processing the remaining files.
+- If the output folder does not exist, the script creates it automatically.
 
 Feel free to modify this script or its dependencies to suit your needs.
